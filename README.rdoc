@@ -1,0 +1,33 @@
+== Devise Example App
+
+I made a sample to cover a lot of the things that you guys will need for Devise tomorrow!
+
+To get it running, clone it then do the following:
+
+bundle install
+rake db:create
+rake db:migrate
+rake db:seed
+rails s
+
+Be sure to check out the following files for comments:
+
+app/views/devise/registrations/edit.html.erb
+app/views/devise/registrations/new.html.erb
+
+app/views/layouts/_navbar.html.erb
+app/views/layouts/application.html.erb
+
+app/controllers/registrations_controller.rb
+app/controllers/users_controller.rb
+
+config/routes.rb
+
+Check the rest of the app just to see how it all works!
+I used Devise and Bootstrap.
+
+Here are some helpful links!
+
+Devise Docs - https://github.com/plataformatec/devise
+Adding custom attributes to a Devise Model - http://www.jacopretorius.net/2014/03/adding-custom-fields-to-your-devise-user-model-in-rails-4.html
+How to create a Users controller - http://stackoverflow.com/questions/7086583/creating-a-users-show-page-using-devise
